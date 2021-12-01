@@ -7,7 +7,7 @@ const replaceTemplate = require("./modules/replaceTemplate");
 ///////////////////////////////
 // SERVER
 const tempOverview = fs.readFileSync(
-  `${__dirname}/templates/template-overview.html`,
+  `${__dirname}/templates/index.html`,
   "utf-8"
 );
 const tempCard = fs.readFileSync(
